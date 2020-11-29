@@ -1,0 +1,122 @@
+/*format of profile image/my face*/
+.circle {
+  width: 300px;
+  border: 5px solid #4F518C;
+  border-radius: 50%;
+  float: left;
+  margin: 20px 40px 20px 40px;
+}
+
+/*format of logo image in the footer*/
+.logo {
+  width: 220px;
+  border: 2px solid #000;
+}
+
+/*format of the page body*/
+body{
+  background-color:#000;
+  border: 10px solid #4F518C;
+  padding: 10px;
+  height: 1000x;
+}
+
+/*format/style of the page header*/
+header{
+  background-color: #00B3E6;
+  margin: 10px;
+  border: 5px solid #E171AC;
+}
+
+/*fomat/syle of the page footer*/
+footer {
+  margin: 10px;
+  padding: 1px;
+  background-color: #00B3E6;
+  border: 5px solid #E171AC;
+  height: 150px;
+}
+
+/*format/style of main div*/
+.solid{
+  border: 5px solid #00B3E6;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*format/style of all the horizontal lines*/
+hr {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #4F518C;
+  background-color: #00B3E6;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  transform: rotate(45deg);
+}
+
+/*format/style of h1 text (only my name in header)*/
+h1{
+  font-family: 'American Typewriter',SignPainter,'HanziPen SC',fantasy;
+  color: #4F518C;
+  text-align: center;
+  font-size: 70px;
+}
+
+/*format/style of all h2 text*/
+h2{
+  font-family: 'American Typewriter';
+  font-size: 40px;
+  color: #E171AC;
+  text-align: center;
+}
+
+/*format/style of h3, h4, p, li text*/
+h3, h4, p, li {
+  font-family: 'Comic Sans MS','Times New Roman';
+  color: #E171AC;
+  text-align: center;
+  align-content: center;
+}
+
+/*font size of h3 text in main body of page*/
+h3{
+  font-size: 30px;
+}
+
+/* h4 font size*/
+h4{
+  font-size: 23px;
+}
+
+/* p and li font size*/
+p,li {
+  font-size: 20px;
+}
+
+/*format of ordered and unordered lists*/
+ol, ul {
+  text-align: center;
+}
+/* format of list items*/
+li{
+  display: center;
+}
+
+/* format of links*/
+a {
+  font-family: 'Times New Roman';
+  font-size: 20px;
+}
+
+a:link { color: #00B3E6;}
+a:visited { color: #E171AC;}
+a:hover { color: #fff;}
+a:active{ color: aqua;}
+
+/*format/style of header and footer h3 text*/
+header h3, footer h3{
+  font-family: 'Comic Sans MS', 'Times New Roman';
+  color:#4F518C;
+  font-size: 50px;
+}
